@@ -1,0 +1,21 @@
+// if(navigator.geolocation) {
+//     navigator.geolocation.getCurrentPosition(
+//         function(position) {
+//             const latitude= position.coords.latitude;
+//             const longitude= position.coords.longitude;
+
+//             document.getElementById("co-ordinate").innerHTML=
+//             "Latitude: "+latitude+"<br>"+"Longitude: "+longitude;
+
+//             const mapURL= `https://www.google.com/maps/embed/v1/view?key=YOUR_API_KEY&center=${latitude},${longitude}&zoom=15`;
+//             document.getElementById("map").src= mapURL;
+//         },
+//         function (error) {
+//             document.getElementById("co-ordinate").innerHTML=
+//             "Error: " + error.message
+//         }
+//     )
+// } else {
+//     document.getElementById("co-ordinate").innerHTML=
+//     "Geo-location is not supported by your browser"
+// }

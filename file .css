@@ -1,0 +1,362 @@
+.d-inline-block{
+    clip-path: circle(50% at 50% 50%);
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+#navbarSupportedContent{
+    margin-left: 53%;
+}
+.navbar-nav{
+    font-size: 18px;
+}
+@media(max-width: 1024px){
+    #navbarSupportedContent{
+        margin-left: 37%;
+    }
+}
+@media(max-width: 991px){
+    #navbarSupportedContent{
+        margin-left: 0;
+    }
+}
+@media(max-width: 1348px){
+    .name{
+        font-size: 25px;
+        font-weight: bold;
+    }
+}
+/* -----------HOME---------- */
+.h-item{
+    height: 565px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+.c-caption{
+    width: 26rem;
+    text-align: left !important;
+    margin-bottom: 6.4rem;
+    animation: text 2.5s 1;
+}
+.carousel-caption h3{
+    font-size: 3rem;
+}
+@keyframes text {
+    0%{
+        transform: translateX(-150%);
+    }
+}
+.carousel-caption p{
+    line-height: 2;
+    font-size: 0.9rem;
+    margin-left: 18px;
+}
+.btn{
+    background-color: rgba(0, 140, 255, 0.418) !important;
+    color: cornsilk !important;
+    border-radius: 7px !important;
+    margin-left: 18px;
+}
+.btn:hover{
+    background-color: white !important;
+    color: black !important;
+}
+@media(max-width:767px){
+    .carousel-caption h3{
+        font-size: 1.5rem;
+    }
+    .carousel-caption .btn{
+        margin-bottom: 6rem;
+    }
+    .btn{
+        width: 50% !important;
+    }
+}
+/* -----------ABOUT---------- */
+.a-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+.about .rounded{
+    height: 340px;
+}
+.about .content{
+    padding: 1rem 0;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2;
+    margin-bottom: 4rem;
+}
+/* -----------SERVICES---------- */
+.services .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px ;
+    /* border-radius: 104px 23px 115px 23px;
+    -webkit-border-radius: 104px 23px 115px 23px;
+    -moz-border-radius: 104px 23px 115px 23px; */
+    /* border-radius: 25px; */
+    border: none;
+    align-items: center;
+}
+.services .card img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.services .card .card-body{
+    text-align: center;
+}
+/* -----------CONTACT US---------- */
+.section{
+    background: linear-gradient(to right, rgba(0, 140, 255, 0.938), rgba(0, 140, 255, 0.418));
+    border-top-right-radius: 160px;
+    border-bottom-right-radius: 160px;
+}
+form{
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+.form-control{
+    border-bottom-color: rgba(0,0,0,.42) !important;
+    background-color: white;
+}
+#p1, #p2, #p3{
+    color: red;
+}
+.button{
+    background-color: rgba(0, 140, 255, 0.938) !important;
+    color: black !important;
+    width: 90%;
+    border-radius: 50px !important;
+}
+.button:hover{
+    background-color: rgba(0, 140, 255, 0.938) !important;
+    color: white !important;
+}
+@media only screen and (max-width: 1161px) {
+    form{
+        width: 85% !important;
+    }
+    .btn{
+        width: 80%;
+    }
+} 
+@media only screen and (max-width: 565px) {
+    form{
+        width: 100% !important;
+    }
+    .btn{
+        width: 85%;
+    }
+}
+@media(max-width: 730px) {
+    .section{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}  
+/* ----------- FOOTER ---------- */
+footer{
+    background: #101010;
+    padding: 85px 0;
+}
+.singlebox p{
+    color: #fff;
+}
+.singlebox h4{
+    font-weight: 700;
+    color: #fff;
+}
+.singlebox ul{
+    list-style: none;
+    padding: 0;
+}
+.singlebox ul li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 2.2;
+}
+.socials a i{
+    font-size: 35pt;
+    margin: 8px 20px 0 0;
+    color: #fff;
+}
+@media(max-width: 991px){
+    .singlebox{
+        margin-bottom: 50px;
+    }
+}
+/* -----------------INFORMATION--------------------- */
+.P-Information{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.653),rgba(0, 0, 0, 0.653)),url(Images/image\ 6.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.P-Information a{
+    text-decoration: none;
+    color: black;
+}
+.P-Information a:hover{
+    color: black;
+}
+.P-Information .card{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px ;
+    border-radius: 25px;
+    border: none;
+    align-items: center;
+    transition: 0.4s;
+}
+.P-Information .card:hover{
+    scale: 1.1;
+}
+.P-Information .card img{
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+}
+.P-Information .card .card-body{
+    text-align: center;
+}
+.card-btn{
+    background-color: rgba(0, 140, 255, 0.938);
+    color: black;
+    border: none;
+    border-radius: 8px;
+}
+/* -----------PATIENT PAGE---------- */
+.img1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url(./Images/Oral\ Health.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+}
+.d-issue{
+    background-image: url(./Images/Dental\ Issue.jpg);
+    filter: brightness(0.5);
+}
+.p-care{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Images/P\ Care.jpg);
+}
+.t-options{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./Images/t-options.jpg);
+}
+.img2 h1{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    margin: -182px auto 0 auto;
+    color: white;
+    font-size: 60pt;
+}
+@media (max-width: 470px){
+    .img2 h1{
+    margin: -204px auto 0 auto;
+    font-size: 46pt;
+    }
+}
+/* ----------DROPDOWN---------- */
+
+.dropbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+.accordion{
+    width: 100%;
+}
+.accordion .contentbx{
+    position: relative;
+    margin: 5px 20px;
+}
+.accordion .contentbx .label{
+    color: #52555d;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+    border: 2px solid #c4955d;
+}
+.accordion .contentbx .label::before{
+    content: "+";
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;  
+}
+.accordion .contentbx.active .label::before{
+    content: '-';
+}
+.accordion .contentbx .content{
+    position: relative;
+    background: #dedfe8;
+    color: #112748;
+    font-weight: 700;
+    border: 2px solid rgb(202, 202, 60);
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+.accordion .contentbx.active .content{
+    height: 150px;
+    padding: 10px;
+}
+.accordion .content{
+    text-align: justify;
+}
+/* -----------OUR TEAM---------- */
+.profile-area{
+    padding: 60px 0;
+}
+.P-Info .main-text{
+    padding: 30px 0;
+    text-align: center;
+}
+/* -----------SERVICE PAGE---------- */
+.s-card{
+   height: 565px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+}
+.content-s{
+    width: 600px;
+    text-align: left !important;
+    margin-bottom: 7rem;
+}
+.content-s h3{
+    font-size: 70px;
+    font-weight: bold;
+}
+.content-s p{
+    margin-left: 7px;
+    font-weight: 600;
+}
+@media(max-width: 695px){
+    .content-s{
+        margin-bottom: 10rem;
+    }
+    .carousel-caption h3{
+        font-size: 35px;
+    }
+    .carousel-caption p{
+        width: 275px;
+    }
+}
+
+
